@@ -63,4 +63,6 @@ python main.py # For Windows
 ```
 
 ## Developers
-
+|<img src="https://github.com/pancham1603.png" alt="Pancham Agarwal" height="80" width="80">|<img src="https://github.com/im-NL.png" alt="Aryan Sharma" height="80" width="80">|<img src="https://github.com/ashish4arora.png" alt="Ashish Arora" height="80" width="80">|<img src="https://github.com/suyash-singh14.png" alt="Suyash Singh" height="80" width="80">|
+|---|---|---|---|
+|[Pancham Agarwal](https://github.com/pancham1603)|[Aryan Sharma](https://github.com/im-NL/)|[Ashish Arora](https://github.com/ashish4arora)|[Suyash Singh](https://github.com/suyash-singh14)
