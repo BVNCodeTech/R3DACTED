@@ -1,0 +1,16 @@
+{% if admin %}
+<form action="/admin/questions/edit/{{ question['_id'] }}/submit" method="POST">
+    <input type="number" name='id'  value="{{ question['_id'] }}" >
+    <input type="text" name='content'  value="{{ question['question'] }}" >
+    <input type="url" name='image' value="{{ question['image'] }}">
+    <input type="text" name='answer'  value="{{ question['answer'] }}" >
+    <input type="number" name='points' value="{{ question['points'] }}" >
+    <input type="number" name='next_level' value="{{ question['next_level'] }}" >
+    <input type="submit">
+</form>
+
+{% endif %}
+{% if not admin %}
+Bhaut tez ho rahe ho
+<a href="/">Home</a>
+{% endif %}

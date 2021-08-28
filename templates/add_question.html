@@ -1,0 +1,15 @@
+{% if admin %}
+<form action='/admin/questions/add/submit' method="POST">
+    <input type="number" name='id' placeholder="Level" required>
+    <input type="text" name='content' placeholder="Content" required>
+    <input type="url" name='image' placeholder="Image URL">
+    <input type="text" name='answer' placeholder='Answer' required>
+    <input type="number" name='points' placeholder="Points" required>
+    <input type="number" name='next_level' placeholder="Next Level" required>
+    <input type="submit">
+</form>
+{% endif %}
+{% if not admin %}
+Bhaut tez ho rahe ho
+<a href="/">Home</a>
+{% endif %}

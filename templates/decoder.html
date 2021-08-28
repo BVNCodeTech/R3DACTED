@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CT for decoding</title>
+</head>
+<!-- if the decoder returns False, you're doing something wrong.
+when it's right, it's right
+good luck. -->
+<body>
+    <form method="post" action="/goodluck/submit" id="form">
+        <input type="input" placeholder="encoded string" id="encoded" name="encoded" data-name="encoded" autocomplete="off">
+        <input type="input" placeholder="key" id="key" name="key" data-name="key" autocomplete="off">
+        <input type="submit" value="submit" placeholder="decode" name="decode" data-name="decode"> 
+    </form>
+    <br>
+    <p>decoded: {{decoded}}</p>
+    <p>key: {{key}}</p>
+</body>
+</html>

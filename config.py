@@ -1,0 +1,6 @@
+CLIENT_ID = '853902269829611521'
+CLIENT_SECRET = ''
+# REDIRECT_URI = 'https://redacted.co.in/callback'
+# oauth_url = r'https://discord.com/api/oauth2/authorize?client_id=853902269829611521&redirect_uri=https%3A%2F%2Fredacted.co.in%2Fcallback&response_type=code&scope=identify%20email%20connections'
+REDIRECT_URI = 'http://127.0.0.1:5000/callback'
+oauth_url = r'https://discord.com/api/oauth2/authorize?client_id=853902269829611521&redirect_uri=http%3A%2F%2F127.0.0.1%3A5000%2Fcallback&response_type=code&scope=identify%20email%20connections'

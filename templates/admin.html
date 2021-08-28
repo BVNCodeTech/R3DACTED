@@ -1,0 +1,14 @@
+{% if admin %}
+<a href='/admin/questions'>Questions</a>
+<br>
+<br>
+<a href="/admin/hunt/pause">pause hunt</a>
+<a href="/admin/hunt/end">end hunt</a>
+<a href="/admin/hunt/run">start hunt</a>
+
+{% endif %}
+
+{% if not admin %}
+Bhaut tez ho rahe ho
+<a href='/'>Home</a>
+{% endif %}
