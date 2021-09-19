@@ -31,24 +31,24 @@
   <div class="page-nav-header">
     <img src="/static/images/codetech.png" draggable="false" loading="lazy" width="237" alt="" class="image" onclick="window.location ='/';" style="cursor: pointer" />
     <a href="#" class="icon-button rotate-icon top-right w-inline-block">
-      {%if login%}
+      <!-- {%if login%}
       <div onclick="window.location='/profile';" class="icon-button-text">PROFILE</div>
       <div onclick="window.location='/sidequest';" class="icon-button-text">SIDEQUESTS</div>
 
-      {%endif%}
-          <div onclick="window.location='https://discord.gg/codetech';" class="icon-button-text">DISCORD</div>
+      {%endif%} -->
+          <div onclick="window.location='https://discord.gg/DVWYyUFjAB';" class="icon-button-text">DISCORD</div>
           <div onclick="window.location='/leaderboard';" class="icon-button-text">LEADERBOARD</div>
           
-          {%if login%}
+          <!-- {%if login%}
           <div onclick="window.location='/play';" class="icon-button-text">PLAY</div>
           <div onclick="window.location='/logout';" class="icon-button-text">LOGOUT</div>
           {%endif%}
           {%if not login%}
           <div onclick="window.location='{{url}}';" class="icon-button-text">LOGIN</div>
-          {%endif%}
+          {%endif%} -->
     </a>
   </div>
-  {% with messages = get_flashed_messages(with_categories=true) %}
+  <!-- {% with messages = get_flashed_messages(with_categories=true) %}
   {% if messages %}
     {% for category, message in messages %}
     {% if category == 'incorrect-ans' or category == 'correct-ans' %}
@@ -65,20 +65,23 @@
     {% endif %}
     {% endfor %}
   {% endif %}
-  {% endwith %}
+  {% endwith %} -->
   <div class="page-hero-section wf-section">
     <div class="hero-info-wrap">
 <!--      <h1 class="large-page-heading outline">R3DACTED</h1>-->
       <img src="static/images/RedactedLogofirstrendertransparent.png" loading="lazy" width="800" alt="" draggable="false" class="large-page-heading outline"/>
       <div class="page-hero-tag white">know no bounds. </div>
-    {%if not login%}
+    <!-- {%if not login%}
   </div>
 
   <a href="{{url}}" class="button w-button spbutton">LOGIN WITH DISCORD</a>
-    {%endif%}
-    {%if login%}
+    {%endif%} -->
+    <!-- {%if login%}
   </div><a href="/play" class="button w-button spbutton">PLAY NOW</a>
-    {%endif%}
+    {%endif%} -->
+  </div>
+
+  <a href="https://github.com/BVNCodeTech/R3DACTED" class="button w-button spbutton">VIEW THE SOURCE</a>
   </div>
   <div class="section-2 wf-section">
     <div class="columns w-row">
@@ -149,7 +152,7 @@
               </div>
               <div data-w-tab="Tab 6" class="tab-pane-tab-3 w-tab-pane w--tab-active">
                 <h1 class="heading-4">What are the prizes?</h1>
-                <div class="text-block-5">Prizes are yet to be revealed.</div>
+                <div class="text-block-5">1 --> INR 3000  2 --> INR 2000 3 --> INR 1000 Top 9: Replit 6 Months, Top 35: 1yr .xyz Top 50: Replit 2 Months</div>
               </div>
             </div>
           </div>
