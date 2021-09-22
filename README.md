@@ -46,7 +46,7 @@ subhogay\Scripts\activate #For Windows; use backslash
 
 ### Installing Requirements
 
-Use pip to install all the modules and libraries required for medSCHED in the required.txt
+Use pip to install all the modules and libraries required for R3DACTED in the required.txt
 
 ```
 pip install -r requirements.txt
@@ -68,3 +68,5 @@ python main.py # For Windows
 |[Pancham Agarwal](https://github.com/pancham1603)|[Aryan Sharma](https://github.com/im-NL/)|[Ashish Arora](https://github.com/ashish4arora)|[Suyash Singh](https://github.com/suyash-singh14)
 
 R3DACTED Logo by Shobhit Pandey
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=82371c97bdb5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
